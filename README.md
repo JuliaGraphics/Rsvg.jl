@@ -55,3 +55,7 @@ Interaction with other GLib based libraries
 ===========================================
 librsvg is usually used in a Gnome/GLib context. Some of the features therefore depend on availability of a GLib as shared resource, especially memory management. This package e.g. depends for destroying RsvgHandles on GLib infrastructure and strange things can happen if you manage to load 2 different GLib instances. As long as you use Rsvg along Gtk.jl and Cairo.jl you should be fine.
 
+Note
+====
+
+This package was created by [Andreas Lobinger])https://github.com/lobingera/Rsvg.jl_ 
