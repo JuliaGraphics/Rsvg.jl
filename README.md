@@ -58,4 +58,4 @@ librsvg is usually used in a Gnome/GLib context. Some of the features therefore 
 Note
 ====
 
-This package was created by [Andreas Lobinger])https://github.com/lobingera/Rsvg.jl_ 
+This package was created by [Andreas Lobinger](https://github.com/lobingera/Rsvg.jl).
