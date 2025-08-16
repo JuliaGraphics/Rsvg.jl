@@ -1,8 +1,7 @@
 Rsvg.jl
 =======
 
-[![Build Status](https://travis-ci.org/lobingera/Rsvg.jl.svg?branch=master)](https://travis-ci.org/lobingera/Rsvg.jl)
-[![Build status](https://ci.appveyor.com/api/projects/status/up2sxjlgb0hl75vl/branch/master?svg=true)](https://ci.appveyor.com/project/lobingera/rsvg-jl/branch/master)
+[![CI](https://github.com/JuliaGraphics/Rsvg.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/JuliaGraphics/Rsvg.jl/actions/workflows/CI.yml?query=branch%3Amaster)
 
 Adaptation of the [librsvg](https://wiki.gnome.org/LibRsvg?action=show).
 
@@ -19,7 +18,8 @@ Note on API: nothing is exported, you need to prefix Rsvg.callsomething
 
 Usage
 =====
-```
+
+```julia
 using Rsvg
 using Cairo
 
@@ -33,9 +33,10 @@ c = Cairo.CairoContext(cs);
 Rsvg.handle_render_cairo(c,r);
 Cairo.write_to_png(cs,filename_out);
 ```
+
 API
 ===
-```
+```julia
 handle_get_dimensions(handle::RsvgHandle, dimension_data::RsvgDimensionData)
 dimension_data = handle_get_dimensions(handle::RsvgHandle)
 set_default_dpi(dpi::Float64)
