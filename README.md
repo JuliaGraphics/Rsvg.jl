@@ -1,7 +1,7 @@
 Rsvg.jl
 =======
 
-[![CI](https://github.com/JuliaGraphics/Rsvg.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/JuliaGraphics/Rsvg.jl/actions/workflows/CI.yml?query=branch%3Amaster)
+[![CI](https://github.com/JuliaGraphics/Rsvg.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaGraphics/Rsvg.jl/actions/workflows/ci.yml?query=branch%3Amaster)
 
 Adaptation of the [librsvg](https://wiki.gnome.org/LibRsvg?action=show).
 
